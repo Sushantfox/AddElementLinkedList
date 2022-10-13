@@ -12,5 +12,8 @@ class Main {
     LinkedList<String> animals = new LinkedList<>();
     animals.add("Crocodile");
 
+    // Add all elements of mammals in animals
+    animals.addAll(mammals);
+    System.out.println("Animals: " + animals);
   }
 }
